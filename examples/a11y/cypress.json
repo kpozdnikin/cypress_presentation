@@ -1,0 +1,10 @@
+{
+  "fixturesFolder": false,
+  "testFiles": "**/*spec.js",
+  "viewportWidth": 500,
+  "viewportHeight": 500,
+  "experimentalComponentTesting": true,
+  "env": {
+    "coverage": false
+  }
+}

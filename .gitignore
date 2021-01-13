@@ -1,2 +1,13 @@
-node_modules
-.eslintrc.js
+public/
+node_modules/
+dist
+**/cypress/videos
+**/cypress/screenshots
+**/cypress/snapshots/**/__diff_output__
+package-lock.json
+.nyc_output
+coverage
+*.generated.css
+.next
+bin
+*.tgz
