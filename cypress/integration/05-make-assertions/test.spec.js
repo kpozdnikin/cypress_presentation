@@ -4,6 +4,9 @@
 beforeEach( () => {
 
   cy
+    .task('resetDatabase');
+
+  cy
     .visit('localhost:3000');
 
 });
@@ -56,7 +59,7 @@ it('Marks item as completed', () => {
   cy.get('.toggle').first().click();
 
   // или так
-  cy.get('.toggle').eq(3).click();
+  cy.get('.toggle').eq(0).click();
 
   cy
     .get('.todo')

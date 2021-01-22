@@ -30,8 +30,8 @@ it('Should have todo item with text "buy milk"', () => {
   cy
     .get('.todo-list') // yields ul element
     .find('li') // yields 2 li elements
-    .eq(1) // yields li element 1
-    .should('contain.text', 'buy milk'); // makes assertion on element 1
+    .eq(1) // yields li element 2
+    .should('contain.text', 'buy milk'); // makes assertion on element 2
 
 });
 

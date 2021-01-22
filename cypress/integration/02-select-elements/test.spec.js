@@ -25,4 +25,6 @@ it('gets the same input element using different selectors', () => {
   cy
     .get('header input');
 
+  // data-testid=''
+
 });
